@@ -2,7 +2,30 @@
     margin: 0px;
     padding: 0px;
 }
-#disk{
-    color: blue;
+.menu-container{
+    background: rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-pic{
+    width: 120px;
+}
+.menus{
+    display: flex;
+}
+.home{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.home:hover{
+    color: brown;
     cursor: pointer;
+    background: whitesmokel;
+    padding: 10px;
 }
