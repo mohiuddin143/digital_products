@@ -57,3 +57,79 @@
     border: none;
     border-radius: 5px;
 }
+/* this is a about us section  */
+.about-div-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.about-text-container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.about-info{
+    padding: 20px 0px;
+}
+.about-title{
+    font-size: 54px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 50px;
+}
+.about-img{
+    width: 300px;
+}
+/* this is a service section  */
+.service-section{
+    background-image: url("./media/images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    padding: 50px 0px; 
+}
+.service-title{
+    color: white;
+    font-size: 54px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.box-logo{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px ;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-info{
+    padding: 5px;
+}
+.service-box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
